@@ -7,7 +7,7 @@ import { useAppDispatch } from "redux/store";
 import clsx from "clsx";
 import "./Filter.css";
 
-const Filter = () => {
+export const Filter = () => {
   const articles = useSelector(selectItems);
   const dispatch = useAppDispatch();
 
@@ -39,5 +39,3 @@ const Filter = () => {
     </Box>
   );
 };
-
-export default Filter;

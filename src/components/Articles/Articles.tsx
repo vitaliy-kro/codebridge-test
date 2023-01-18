@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { Box, Grid } from "@mui/material";
-import { Article } from "components/Article/Article";
+import { Article } from "components/Article";
 import { fetchArticles } from "redux/articles/operations";
 import { selectItems, selectFilterStatus } from "redux/articles/selectors";
 import { useAppDispatch } from "redux/store";

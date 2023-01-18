@@ -1,5 +1,5 @@
-import Filter from "components/Filter/Filter";
-import { Articles } from "components/Articles/Articles";
+import { Filter } from "components/Filter";
+import { Articles } from "components/Articles";
 
 const MainPage = () => {
   return (
