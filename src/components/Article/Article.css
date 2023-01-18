@@ -1,0 +1,14 @@
+.card {
+  height: 530px;
+}
+
+.card__calendar-wrapper {
+  color: #36363;
+  opacity: 0.6;
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.card__date {
+  margin-left: 8px;
+}
