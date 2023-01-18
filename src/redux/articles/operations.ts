@@ -1,9 +1,6 @@
 import axios from "axios";
-import { AxiosResponse } from "axios";
-import { useCallback } from "react";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { APIError, Article } from "./interfaces";
-import { debounce } from "debounce";
 
 axios.defaults.baseURL = "https://api.spaceflightnewsapi.net/";
 
